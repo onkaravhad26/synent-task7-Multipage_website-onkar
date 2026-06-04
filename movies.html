@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies - CineWave</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">CineWave</h1>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="genres-section">
+
+        <h2>Movie Genres</h2>
+
+        <div class="genre-container">
+
+            <button>Action</button>
+            <button>Comedy</button>
+            <button>Horror</button>
+            <button>Sci-Fi</button>
+            <button>Thriller</button>
+            <button>Romance</button>
+
+        </div>
+
+    </section>
+
+    <div class="search-box">
+
+        <input type="text" placeholder="Search Movies">
+
+        <button>Search</button>
+
+    </div>
+
+    <div class="btn-container">
+        <button class="book-btn" onclick="bookTicket()">Book Tickets</button>
+        <a href="https://www.youtube.com" class="trailer-btn">Watch Trailer</a>
+    </div>
+
+
+    <section class="page-section">
+        <h2>Now Showing</h2>
+
+        <div class="movie-container">
+
+            <div class="movie-card">
+                <img src="images/joker.jpg" alt="Movie">
+                <h3>Joker</h3>
+                <p>Drama | Thriller</p>
+            </div>
+
+            <div class="movie-card">
+                <img src="images/spider man.jpg" alt="Movie">
+                <h3>Spider-Man</h3>
+                <p>Action | Adventure</p>
+            </div>
+
+            <div class="movie-card">
+                <img src="images/Doctor Strange.jpg" alt="Movie">
+                <h3>Doctor Strange</h3>
+                <p>Fantasy | Action</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="trending-section">
+
+        <h2>Trending Movies</h2>
+
+        <div class="movie-container">
+
+            <div class="movie-card">
+                <img src="images/Avengers Endgame.jpg" alt="Movie">
+
+                <h3>Avengers Endgame</h3>
+
+                <p>🔥 Most Booked</p>
+
+                <p>⭐ 8.9 | 2h 45m</p>
+
+                <button class="book-btn" onclick="bookTicket()">Book Tickets</button>
+            </div>
+
+
+            <div class="movie-card">
+                <img src="images/batman.jpg" alt="Movie">
+
+                <h3>Batman</h3>
+
+                <p>📈 Popular This Week</p>
+
+                <p>⭐ 8.5 | 2h 20m</p>
+
+                <button class="book-btn" onclick="bookTicket()">Book Tickets</button>
+            </div>
+
+
+            <div class="movie-card">
+                <img src="images/inyersteller.jpg" alt="Movie">
+
+                <h3>Interstellar</h3>
+
+                <p>🏆 Top Rated</p>
+
+                <p>⭐ 9.1 | 2h 50m</p>
+
+                <button class="book-btn" onclick="bookTicket()">Book Tickets</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="show-timings">
+
+        <h2>Show Timings</h2>
+
+        <div class="timing-container">
+
+            <button>10:30 AM</button>
+
+            <button>1:45 PM</button>
+
+            <button>5:00 PM</button>
+
+            <button>9:30 PM</button>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+
+
+
+    <footer>
+        <p>© 2026 CineWave. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
