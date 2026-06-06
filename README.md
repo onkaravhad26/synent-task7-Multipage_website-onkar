@@ -21,5 +21,9 @@ It is a beginner-friendly web development project with a clean and responsive de
 📂 Project Structure
 Project Folder
 │── README.md
-│── index.html
+│── about.html
+│── contact.html
+│── movies.html
+│── script.js
 │── style.css
+
